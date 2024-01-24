@@ -1,0 +1,126 @@
+/* frontpage.css */
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Entry container styles */
+.entry-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Explore All Products button styles */
+.btn-explore {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-explore:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* All Products button styles without blue background */
+.btn-all-products {
+  background-color: transparent;
+  border-color: #007bff;
+  color: #007bff;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-all-products:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+/* Website container styles */
+.website-container {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* Category item styles */
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-item {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Category image styles */
+.category-image {
+  width: 200px; /* Adjust the size according to your preference */
+  height: 200px; /* Adjust the size according to your preference */
+}
+
+/* Category overlay styles */
+.category-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.category-item:hover .category-overlay {
+  opacity: 1;
+}
+
+/* Category text styles */
+.category-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-count {
+  font-size: 0.8em;
+}
+
+/* Bootstrap button style */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.2em;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

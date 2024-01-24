@@ -1,0 +1,178 @@
+/* Products.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-select:hover, .form-select:focus {
+  border-color: #3498db;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}
+
+.home-button {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #27ae60;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-button:hover {
+  background-color: #2980b9;
+}
+
+.pagination-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.prev, .next {
+  background-color: #e74c3c;
+  color: #fff;
+}
+/* Products.css */
+
+/* ... (previous styles) */
+
+/* Home button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Search bar and button container */
+div.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Search bar */
+div.search-container input {
+  padding: 12px; /* Adjust padding to increase height */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Adjust margin as needed */
+  font-size: 16px; /* Adjust font size if needed */
+}
+
+/* Search button */
+div.search-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 16px; /* Adjust padding to match the search bar */
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
+
